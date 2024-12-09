@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+
+.App-container{
+  background-image: linear-gradient(to top, rgb(111, 210, 179), rgb(13, 252, 73));
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+li{
+  list-style-type: none;
+  /* background-color: rgb(244, 7, 117); */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.user-input{
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 18px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.add-btn{
+  width: 80px;
+  padding: 12px;
+  border: none;
+  outline: none;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
 }
 
-.App-link {
-  color: #61dafb;
+.btns{
+  width: 100px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btns,i{
+  color:white;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.btns,button{
+  border: none;
+  background-color: transparent;
+}
+
+.todo-con{
+  width: 100%;
+  background-color: rgb(66, 78, 87);
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 8px;
+}
+
+.label-con{
+  width: 100;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.checkout-input{
+  padding: 11px;
+  background-color: rgb(255, 255, 0);
+  border-left: 4px solid green;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
